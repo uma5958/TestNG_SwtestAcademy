@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="60288" started-at="2019-10-29T18:02:51Z" finished-at="2019-10-29T18:03:51Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="60176" started-at="2019-10-29T18:02:51Z" finished-at="2019-10-29T18:03:51Z">
+      <class name="com.ParallelTesting3.TestClass1">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ParallelTesting3.TestClass1@47c62251]" name="setup" is-config="true" duration-ms="20969" started-at="2019-10-29T18:02:51Z" finished-at="2019-10-29T18:03:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ParallelTesting3.TestClass1@47c62251]" name="setup" is-config="true" duration-ms="28183" started-at="2019-10-29T18:02:51Z" finished-at="2019-10-29T18:03:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC1()[pri:0, instance:com.ParallelTesting3.TestClass1@47c62251]" name="TC1" duration-ms="7257" started-at="2019-10-29T18:03:12Z" finished-at="2019-10-29T18:03:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method status="PASS" signature="TC2()[pri:0, instance:com.ParallelTesting3.TestClass1@47c62251]" name="TC2" duration-ms="65" started-at="2019-10-29T18:03:19Z" finished-at="2019-10-29T18:03:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ParallelTesting3.TestClass1@47c62251]" name="tearDown" is-config="true" duration-ms="1047" started-at="2019-10-29T18:03:19Z" finished-at="2019-10-29T18:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ParallelTesting3.TestClass1@47c62251]" name="tearDown" is-config="true" duration-ms="1021" started-at="2019-10-29T18:03:19Z" finished-at="2019-10-29T18:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ParallelTesting3.TestClass1@47c62251]" name="setup" is-config="true" duration-ms="27861" started-at="2019-10-29T18:03:20Z" finished-at="2019-10-29T18:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ParallelTesting3.TestClass1@47c62251]" name="setup" is-config="true" duration-ms="29576" started-at="2019-10-29T18:03:20Z" finished-at="2019-10-29T18:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC4()[pri:0, instance:com.ParallelTesting3.TestClass1@47c62251]" name="TC4" duration-ms="1729" started-at="2019-10-29T18:03:48Z" finished-at="2019-10-29T18:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4 -->
+        <test-method status="PASS" signature="TC3()[pri:0, instance:com.ParallelTesting3.TestClass1@47c62251]" name="TC3" duration-ms="24" started-at="2019-10-29T18:03:50Z" finished-at="2019-10-29T18:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ParallelTesting3.TestClass1@47c62251]" name="tearDown" is-config="true" duration-ms="1256" started-at="2019-10-29T18:03:50Z" finished-at="2019-10-29T18:03:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ParallelTesting3.TestClass1@47c62251]" name="tearDown" is-config="true" duration-ms="1246" started-at="2019-10-29T18:03:50Z" finished-at="2019-10-29T18:03:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ParallelTesting3.TestClass1 -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="60288" started-at="2019-10-29T18:02:51Z" finished-at="2019-10-29T18:03:51Z">
+      <class name="com.ParallelTesting3.TestClass2">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ParallelTesting3.TestClass2@31ef45e3]" name="setup" is-config="true" duration-ms="22360" started-at="2019-10-29T18:02:51Z" finished-at="2019-10-29T18:03:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ParallelTesting3.TestClass2@31ef45e3]" name="setup" is-config="true" duration-ms="27374" started-at="2019-10-29T18:02:51Z" finished-at="2019-10-29T18:03:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC1()[pri:0, instance:com.ParallelTesting3.TestClass2@31ef45e3]" name="TC1" duration-ms="5025" started-at="2019-10-29T18:03:13Z" finished-at="2019-10-29T18:03:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method status="PASS" signature="TC2()[pri:0, instance:com.ParallelTesting3.TestClass2@31ef45e3]" name="TC2" duration-ms="31" started-at="2019-10-29T18:03:18Z" finished-at="2019-10-29T18:03:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ParallelTesting3.TestClass2@31ef45e3]" name="tearDown" is-config="true" duration-ms="1119" started-at="2019-10-29T18:03:19Z" finished-at="2019-10-29T18:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ParallelTesting3.TestClass2@31ef45e3]" name="tearDown" is-config="true" duration-ms="1099" started-at="2019-10-29T18:03:19Z" finished-at="2019-10-29T18:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ParallelTesting3.TestClass2@31ef45e3]" name="setup" is-config="true" duration-ms="29985" started-at="2019-10-29T18:03:20Z" finished-at="2019-10-29T18:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ParallelTesting3.TestClass2@31ef45e3]" name="setup" is-config="true" duration-ms="28630" started-at="2019-10-29T18:03:20Z" finished-at="2019-10-29T18:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC4()[pri:0, instance:com.ParallelTesting3.TestClass2@31ef45e3]" name="TC4" duration-ms="1420" started-at="2019-10-29T18:03:48Z" finished-at="2019-10-29T18:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4 -->
+        <test-method status="PASS" signature="TC3()[pri:0, instance:com.ParallelTesting3.TestClass2@31ef45e3]" name="TC3" duration-ms="80" started-at="2019-10-29T18:03:50Z" finished-at="2019-10-29T18:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ParallelTesting3.TestClass2@31ef45e3]" name="tearDown" is-config="true" duration-ms="1673" started-at="2019-10-29T18:03:50Z" finished-at="2019-10-29T18:03:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ParallelTesting3.TestClass2@31ef45e3]" name="tearDown" is-config="true" duration-ms="1658" started-at="2019-10-29T18:03:50Z" finished-at="2019-10-29T18:03:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ParallelTesting3.TestClass2 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

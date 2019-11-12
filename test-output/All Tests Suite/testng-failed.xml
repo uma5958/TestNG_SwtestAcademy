@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Tests Suite]">
+  <test thread-count="5" name="TestNG Annotations Test(failed)">
+    <classes>
+      <class name="com.TestNGAnnotations.TestNGAnnotations">
+        <methods>
+          <include name="teardownSuite"/>
+          <include name="teardownTest"/>
+          <include name="teardownTests"/>
+          <include name="setupSuit"/>
+          <include name="setupClass"/>
+          <include name="firstTest"/>
+          <include name="setupTests"/>
+          <include name="setupTest"/>
+          <include name="teardownClass"/>
+        </methods>
+      </class> <!-- com.TestNGAnnotations.TestNGAnnotations -->
+    </classes>
+  </test> <!-- TestNG Annotations Test(failed) -->
+</suite> <!-- Failed suite [All Tests Suite] -->
