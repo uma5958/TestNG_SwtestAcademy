@@ -1,113 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="60288" started-at="2019-10-29T18:02:51Z" finished-at="2019-10-29T18:03:51Z">
+  <suite name="Suite" duration-ms="146" started-at="2019-12-16T16:34:06Z" finished-at="2019-12-16T16:34:06Z">
     <groups>
+      <group name="Regression">
+        <method signature="TestNGGroupingAndDependenciesMix.firstTest()[pri:0, instance:com.TestNGGrouping.TestNGGroupingAndDependenciesMix@47c62251]" name="firstTest" class="com.TestNGGrouping.TestNGGroupingAndDependenciesMix"/>
+        <method signature="TestNGGroupingAndDependenciesMix.fifthTest()[pri:0, instance:com.TestNGGrouping.TestNGGroupingAndDependenciesMix@47c62251]" name="fifthTest" class="com.TestNGGrouping.TestNGGroupingAndDependenciesMix"/>
+        <method signature="TestNGGroupingAndDependenciesMix.fourthTest()[pri:0, instance:com.TestNGGrouping.TestNGGroupingAndDependenciesMix@47c62251]" name="fourthTest" class="com.TestNGGrouping.TestNGGroupingAndDependenciesMix"/>
+        <method signature="TestNGGroupingAndDependenciesMix.secondTest()[pri:0, instance:com.TestNGGrouping.TestNGGroupingAndDependenciesMix@47c62251]" name="secondTest" class="com.TestNGGrouping.TestNGGroupingAndDependenciesMix"/>
+        <method signature="TestNGGroupingAndDependenciesMix.sixthTest()[pri:0, instance:com.TestNGGrouping.TestNGGroupingAndDependenciesMix@47c62251]" name="sixthTest" class="com.TestNGGrouping.TestNGGroupingAndDependenciesMix"/>
+        <method signature="TestNGGroupingAndDependenciesMix.thirdTest()[pri:0, instance:com.TestNGGrouping.TestNGGroupingAndDependenciesMix@47c62251]" name="thirdTest" class="com.TestNGGrouping.TestNGGroupingAndDependenciesMix"/>
+      </group> <!-- Regression -->
     </groups>
-    <test name="Test1" duration-ms="60176" started-at="2019-10-29T18:02:51Z" finished-at="2019-10-29T18:03:51Z">
-      <class name="com.ParallelTesting3.TestClass1">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ParallelTesting3.TestClass1@47c62251]" name="setup" is-config="true" duration-ms="20969" started-at="2019-10-29T18:02:51Z" finished-at="2019-10-29T18:03:12Z">
+    <test name="Test" duration-ms="146" started-at="2019-12-16T16:34:06Z" finished-at="2019-12-16T16:34:06Z">
+      <class name="com.TestNGGrouping.TestNGGroupingAndDependenciesMix">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.TestNGGrouping.TestNGGroupingAndDependenciesMix@47c62251]" name="setupTest" is-config="true" duration-ms="31" started-at="2019-12-16T16:34:06Z" finished-at="2019-12-16T16:34:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ParallelTesting3.TestClass1@47c62251]" name="setup" is-config="true" duration-ms="28183" started-at="2019-10-29T18:02:51Z" finished-at="2019-10-29T18:03:19Z">
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:com.TestNGGrouping.TestNGGroupingAndDependenciesMix@47c62251]" name="firstTest" duration-ms="11" started-at="2019-12-16T16:34:06Z" finished-at="2019-12-16T16:34:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="TC1()[pri:0, instance:com.ParallelTesting3.TestClass1@47c62251]" name="TC1" duration-ms="7257" started-at="2019-10-29T18:03:12Z" finished-at="2019-10-29T18:03:19Z">
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:com.TestNGGrouping.TestNGGroupingAndDependenciesMix@47c62251]" name="teardownTest" is-config="true" duration-ms="0" started-at="2019-12-16T16:34:06Z" finished-at="2019-12-16T16:34:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC1 -->
-        <test-method status="PASS" signature="TC2()[pri:0, instance:com.ParallelTesting3.TestClass1@47c62251]" name="TC2" duration-ms="65" started-at="2019-10-29T18:03:19Z" finished-at="2019-10-29T18:03:19Z">
+        </test-method> <!-- teardownTest -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.TestNGGrouping.TestNGGroupingAndDependenciesMix@47c62251]" name="setupTest" is-config="true" duration-ms="1" started-at="2019-12-16T16:34:06Z" finished-at="2019-12-16T16:34:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ParallelTesting3.TestClass1@47c62251]" name="tearDown" is-config="true" duration-ms="1047" started-at="2019-10-29T18:03:19Z" finished-at="2019-10-29T18:03:20Z">
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="fifthTest()[pri:0, instance:com.TestNGGrouping.TestNGGroupingAndDependenciesMix@47c62251]" name="fifthTest" duration-ms="1" started-at="2019-12-16T16:34:06Z" depends-on-methods="com.TestNGGrouping.TestNGGroupingAndDependenciesMix.firstTest" finished-at="2019-12-16T16:34:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ParallelTesting3.TestClass1@47c62251]" name="tearDown" is-config="true" duration-ms="1021" started-at="2019-10-29T18:03:19Z" finished-at="2019-10-29T18:03:20Z">
+        </test-method> <!-- fifthTest -->
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:com.TestNGGrouping.TestNGGroupingAndDependenciesMix@47c62251]" name="teardownTest" is-config="true" duration-ms="0" started-at="2019-12-16T16:34:06Z" finished-at="2019-12-16T16:34:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ParallelTesting3.TestClass1@47c62251]" name="setup" is-config="true" duration-ms="27861" started-at="2019-10-29T18:03:20Z" finished-at="2019-10-29T18:03:48Z">
+        </test-method> <!-- teardownTest -->
+        <test-method status="PASS" signature="fourthTest()[pri:0, instance:com.TestNGGrouping.TestNGGroupingAndDependenciesMix@47c62251]" name="fourthTest" duration-ms="1" started-at="2019-12-16T16:34:06Z" depends-on-methods="com.TestNGGrouping.TestNGGroupingAndDependenciesMix.firstTest" finished-at="2019-12-16T16:34:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ParallelTesting3.TestClass1@47c62251]" name="setup" is-config="true" duration-ms="29576" started-at="2019-10-29T18:03:20Z" finished-at="2019-10-29T18:03:50Z">
+        </test-method> <!-- fourthTest -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.TestNGGrouping.TestNGGroupingAndDependenciesMix@47c62251]" name="setupTest" is-config="true" duration-ms="0" started-at="2019-12-16T16:34:06Z" finished-at="2019-12-16T16:34:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="TC4()[pri:0, instance:com.ParallelTesting3.TestClass1@47c62251]" name="TC4" duration-ms="1729" started-at="2019-10-29T18:03:48Z" finished-at="2019-10-29T18:03:50Z">
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:com.TestNGGrouping.TestNGGroupingAndDependenciesMix@47c62251]" name="teardownTest" is-config="true" duration-ms="0" started-at="2019-12-16T16:34:06Z" finished-at="2019-12-16T16:34:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC4 -->
-        <test-method status="PASS" signature="TC3()[pri:0, instance:com.ParallelTesting3.TestClass1@47c62251]" name="TC3" duration-ms="24" started-at="2019-10-29T18:03:50Z" finished-at="2019-10-29T18:03:50Z">
+        </test-method> <!-- teardownTest -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.TestNGGrouping.TestNGGroupingAndDependenciesMix@47c62251]" name="setupTest" is-config="true" duration-ms="2" started-at="2019-12-16T16:34:06Z" finished-at="2019-12-16T16:34:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC3 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ParallelTesting3.TestClass1@47c62251]" name="tearDown" is-config="true" duration-ms="1256" started-at="2019-10-29T18:03:50Z" finished-at="2019-10-29T18:03:51Z">
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="secondTest()[pri:0, instance:com.TestNGGrouping.TestNGGroupingAndDependenciesMix@47c62251]" name="secondTest" duration-ms="14" started-at="2019-12-16T16:34:06Z" depends-on-methods="com.TestNGGrouping.TestNGGroupingAndDependenciesMix.firstTest" finished-at="2019-12-16T16:34:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ParallelTesting3.TestClass1@47c62251]" name="tearDown" is-config="true" duration-ms="1246" started-at="2019-10-29T18:03:50Z" finished-at="2019-10-29T18:03:51Z">
+        </test-method> <!-- secondTest -->
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:com.TestNGGrouping.TestNGGroupingAndDependenciesMix@47c62251]" name="teardownTest" is-config="true" duration-ms="0" started-at="2019-12-16T16:34:06Z" finished-at="2019-12-16T16:34:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.ParallelTesting3.TestClass1 -->
-    </test> <!-- Test1 -->
-    <test name="Test2" duration-ms="60288" started-at="2019-10-29T18:02:51Z" finished-at="2019-10-29T18:03:51Z">
-      <class name="com.ParallelTesting3.TestClass2">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ParallelTesting3.TestClass2@31ef45e3]" name="setup" is-config="true" duration-ms="22360" started-at="2019-10-29T18:02:51Z" finished-at="2019-10-29T18:03:13Z">
+        </test-method> <!-- teardownTest -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.TestNGGrouping.TestNGGroupingAndDependenciesMix@47c62251]" name="setupTest" is-config="true" duration-ms="1" started-at="2019-12-16T16:34:06Z" finished-at="2019-12-16T16:34:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ParallelTesting3.TestClass2@31ef45e3]" name="setup" is-config="true" duration-ms="27374" started-at="2019-10-29T18:02:51Z" finished-at="2019-10-29T18:03:18Z">
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="sixthTest()[pri:0, instance:com.TestNGGrouping.TestNGGroupingAndDependenciesMix@47c62251]" name="sixthTest" duration-ms="3" started-at="2019-12-16T16:34:06Z" depends-on-methods="com.TestNGGrouping.TestNGGroupingAndDependenciesMix.firstTest" finished-at="2019-12-16T16:34:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="TC1()[pri:0, instance:com.ParallelTesting3.TestClass2@31ef45e3]" name="TC1" duration-ms="5025" started-at="2019-10-29T18:03:13Z" finished-at="2019-10-29T18:03:18Z">
+        </test-method> <!-- sixthTest -->
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:com.TestNGGrouping.TestNGGroupingAndDependenciesMix@47c62251]" name="teardownTest" is-config="true" duration-ms="0" started-at="2019-12-16T16:34:06Z" finished-at="2019-12-16T16:34:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC1 -->
-        <test-method status="PASS" signature="TC2()[pri:0, instance:com.ParallelTesting3.TestClass2@31ef45e3]" name="TC2" duration-ms="31" started-at="2019-10-29T18:03:18Z" finished-at="2019-10-29T18:03:19Z">
+        </test-method> <!-- teardownTest -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.TestNGGrouping.TestNGGroupingAndDependenciesMix@47c62251]" name="setupTest" is-config="true" duration-ms="0" started-at="2019-12-16T16:34:06Z" finished-at="2019-12-16T16:34:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ParallelTesting3.TestClass2@31ef45e3]" name="tearDown" is-config="true" duration-ms="1119" started-at="2019-10-29T18:03:19Z" finished-at="2019-10-29T18:03:20Z">
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="thirdTest()[pri:0, instance:com.TestNGGrouping.TestNGGroupingAndDependenciesMix@47c62251]" name="thirdTest" duration-ms="1" started-at="2019-12-16T16:34:06Z" depends-on-methods="com.TestNGGrouping.TestNGGroupingAndDependenciesMix.firstTest" finished-at="2019-12-16T16:34:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ParallelTesting3.TestClass2@31ef45e3]" name="tearDown" is-config="true" duration-ms="1099" started-at="2019-10-29T18:03:19Z" finished-at="2019-10-29T18:03:20Z">
+        </test-method> <!-- thirdTest -->
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:com.TestNGGrouping.TestNGGroupingAndDependenciesMix@47c62251]" name="teardownTest" is-config="true" duration-ms="0" started-at="2019-12-16T16:34:06Z" finished-at="2019-12-16T16:34:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ParallelTesting3.TestClass2@31ef45e3]" name="setup" is-config="true" duration-ms="29985" started-at="2019-10-29T18:03:20Z" finished-at="2019-10-29T18:03:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ParallelTesting3.TestClass2@31ef45e3]" name="setup" is-config="true" duration-ms="28630" started-at="2019-10-29T18:03:20Z" finished-at="2019-10-29T18:03:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="TC4()[pri:0, instance:com.ParallelTesting3.TestClass2@31ef45e3]" name="TC4" duration-ms="1420" started-at="2019-10-29T18:03:48Z" finished-at="2019-10-29T18:03:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC4 -->
-        <test-method status="PASS" signature="TC3()[pri:0, instance:com.ParallelTesting3.TestClass2@31ef45e3]" name="TC3" duration-ms="80" started-at="2019-10-29T18:03:50Z" finished-at="2019-10-29T18:03:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC3 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ParallelTesting3.TestClass2@31ef45e3]" name="tearDown" is-config="true" duration-ms="1673" started-at="2019-10-29T18:03:50Z" finished-at="2019-10-29T18:03:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ParallelTesting3.TestClass2@31ef45e3]" name="tearDown" is-config="true" duration-ms="1658" started-at="2019-10-29T18:03:50Z" finished-at="2019-10-29T18:03:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.ParallelTesting3.TestClass2 -->
-    </test> <!-- Test2 -->
+        </test-method> <!-- teardownTest -->
+      </class> <!-- com.TestNGGrouping.TestNGGroupingAndDependenciesMix -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
