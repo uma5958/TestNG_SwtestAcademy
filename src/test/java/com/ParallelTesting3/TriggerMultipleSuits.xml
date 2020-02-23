@@ -3,7 +3,7 @@
 
 <suite name="Run Multple xml files">
 	<suite-files>
-		<suite-file	path="src/test/java/com/RunMultipleTestNGSuits/RandomOrder.xml" />
-		<suite-file	path="src/test/java/com/RunMultipleTestNGSuits/SequentialOrder.xml" />
+		<suite-file	path="src/test/java/com/ParallelTesting3/TestClass1Suite.xml" />
+		<suite-file	path="src/test/java/com/ParallelTesting3/TestClass2Suite.xml" />
 	</suite-files>
 </suite>

@@ -49,7 +49,7 @@
 
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>src/test/java/com/TestNGAnnotations/testng.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/java/com/ParallelTesting3/TriggerMultipleSuits.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 
