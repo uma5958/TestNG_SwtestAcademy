@@ -2,120 +2,46 @@
 <testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="76890" started-at="2020-02-23T16:45:08Z" finished-at="2020-02-23T16:46:25Z">
+  <suite name="Suite" duration-ms="99" started-at="2020-02-24T04:52:50Z" finished-at="2020-02-24T04:52:50Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="76890" started-at="2020-02-23T16:45:08Z" finished-at="2020-02-23T16:46:25Z">
-      <class name="com.ParallelTesting3.TestClass1">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ParallelTesting3.TestClass1@42d80b78]" name="setup" is-config="true" duration-ms="59873" started-at="2020-02-23T16:45:08Z" finished-at="2020-02-23T16:46:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ParallelTesting3.TestClass1@42d80b78]" name="setup" is-config="true" duration-ms="76129" started-at="2020-02-23T16:45:08Z" finished-at="2020-02-23T16:46:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ParallelTesting3.TestClass1@42d80b78]" name="setup" is-config="true" duration-ms="62112" started-at="2020-02-23T16:45:08Z" finished-at="2020-02-23T16:46:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ParallelTesting3.TestClass1@42d80b78]" name="setup" is-config="true" duration-ms="60745" started-at="2020-02-23T16:45:08Z" finished-at="2020-02-23T16:46:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="TC1()[pri:0, instance:com.ParallelTesting3.TestClass1@42d80b78]" name="TC1" duration-ms="82" started-at="2020-02-23T16:46:08Z" finished-at="2020-02-23T16:46:08Z">
+    <test name="Test1" duration-ms="99" started-at="2020-02-24T04:52:50Z" finished-at="2020-02-24T04:52:50Z">
+      <class name="com.ParallelTesting.TestClass2">
+        <test-method status="PASS" signature="TC1()[pri:0, instance:com.ParallelTesting.TestClass2@46d56d67]" name="TC1" duration-ms="4" started-at="2020-02-24T04:52:50Z" finished-at="2020-02-24T04:52:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ParallelTesting3.TestClass1@42d80b78]" name="tearDown" is-config="true" duration-ms="1656" started-at="2020-02-23T16:46:08Z" finished-at="2020-02-23T16:46:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="TC3()[pri:0, instance:com.ParallelTesting3.TestClass1@42d80b78]" name="TC3" duration-ms="26" started-at="2020-02-23T16:46:09Z" finished-at="2020-02-23T16:46:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC3 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ParallelTesting3.TestClass1@42d80b78]" name="tearDown" is-config="true" duration-ms="842" started-at="2020-02-23T16:46:09Z" finished-at="2020-02-23T16:46:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="TC2()[pri:0, instance:com.ParallelTesting3.TestClass1@42d80b78]" name="TC2" duration-ms="12" started-at="2020-02-23T16:46:10Z" finished-at="2020-02-23T16:46:10Z">
+        <test-method status="PASS" signature="TC2()[pri:0, instance:com.ParallelTesting.TestClass2@46d56d67]" name="TC2" duration-ms="3" started-at="2020-02-24T04:52:50Z" finished-at="2020-02-24T04:52:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ParallelTesting3.TestClass1@42d80b78]" name="tearDown" is-config="true" duration-ms="677" started-at="2020-02-23T16:46:10Z" finished-at="2020-02-23T16:46:11Z">
+        <test-method status="PASS" signature="TC3()[pri:0, instance:com.ParallelTesting.TestClass2@46d56d67]" name="TC3" duration-ms="2" started-at="2020-02-24T04:52:50Z" finished-at="2020-02-24T04:52:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="TC4()[pri:0, instance:com.ParallelTesting3.TestClass1@42d80b78]" name="TC4" duration-ms="19" started-at="2020-02-23T16:46:24Z" finished-at="2020-02-23T16:46:24Z">
+        </test-method> <!-- TC3 -->
+        <test-method status="PASS" signature="TC4()[pri:0, instance:com.ParallelTesting.TestClass2@46d56d67]" name="TC4" duration-ms="3" started-at="2020-02-24T04:52:50Z" finished-at="2020-02-24T04:52:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC4 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ParallelTesting3.TestClass1@42d80b78]" name="tearDown" is-config="true" duration-ms="694" started-at="2020-02-23T16:46:24Z" finished-at="2020-02-23T16:46:25Z">
+      </class> <!-- com.ParallelTesting.TestClass2 -->
+      <class name="com.ParallelTesting.TestClass1">
+        <test-method status="PASS" signature="TC2()[pri:0, instance:com.ParallelTesting.TestClass1@14acaea5]" name="TC2" duration-ms="15" started-at="2020-02-24T04:52:50Z" finished-at="2020-02-24T04:52:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.ParallelTesting3.TestClass1 -->
-    </test> <!-- Test -->
+        </test-method> <!-- TC2 -->
+        <test-method status="PASS" signature="TC1()[pri:0, instance:com.ParallelTesting.TestClass1@14acaea5]" name="TC1" duration-ms="15" started-at="2020-02-24T04:52:50Z" finished-at="2020-02-24T04:52:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method status="PASS" signature="TC3()[pri:0, instance:com.ParallelTesting.TestClass1@14acaea5]" name="TC3" duration-ms="2" started-at="2020-02-24T04:52:50Z" finished-at="2020-02-24T04:52:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3 -->
+        <test-method status="PASS" signature="TC4()[pri:0, instance:com.ParallelTesting.TestClass1@14acaea5]" name="TC4" duration-ms="5" started-at="2020-02-24T04:52:50Z" finished-at="2020-02-24T04:52:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4 -->
+      </class> <!-- com.ParallelTesting.TestClass1 -->
+    </test> <!-- Test1 -->
   </suite> <!-- Suite -->
-  <suite name="Suite (0)" duration-ms="46268" started-at="2020-02-23T16:46:26Z" finished-at="2020-02-23T16:47:12Z">
-    <groups>
-    </groups>
-    <test name="Test" duration-ms="46268" started-at="2020-02-23T16:46:26Z" finished-at="2020-02-23T16:47:12Z">
-      <class name="com.ParallelTesting3.TestClass2">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ParallelTesting3.TestClass2@553f17c]" name="setup" is-config="true" duration-ms="45512" started-at="2020-02-23T16:46:26Z" finished-at="2020-02-23T16:47:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ParallelTesting3.TestClass2@553f17c]" name="setup" is-config="true" duration-ms="42663" started-at="2020-02-23T16:46:26Z" finished-at="2020-02-23T16:47:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ParallelTesting3.TestClass2@553f17c]" name="setup" is-config="true" duration-ms="43624" started-at="2020-02-23T16:46:26Z" finished-at="2020-02-23T16:47:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ParallelTesting3.TestClass2@553f17c]" name="setup" is-config="true" duration-ms="43953" started-at="2020-02-23T16:46:26Z" finished-at="2020-02-23T16:47:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="TC2()[pri:0, instance:com.ParallelTesting3.TestClass2@553f17c]" name="TC2" duration-ms="79" started-at="2020-02-23T16:47:08Z" finished-at="2020-02-23T16:47:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ParallelTesting3.TestClass2@553f17c]" name="tearDown" is-config="true" duration-ms="2582" started-at="2020-02-23T16:47:08Z" finished-at="2020-02-23T16:47:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="TC4()[pri:0, instance:com.ParallelTesting3.TestClass2@553f17c]" name="TC4" duration-ms="56" started-at="2020-02-23T16:47:09Z" finished-at="2020-02-23T16:47:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC4 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ParallelTesting3.TestClass2@553f17c]" name="tearDown" is-config="true" duration-ms="1823" started-at="2020-02-23T16:47:09Z" finished-at="2020-02-23T16:47:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="TC3()[pri:0, instance:com.ParallelTesting3.TestClass2@553f17c]" name="TC3" duration-ms="20" started-at="2020-02-23T16:47:10Z" finished-at="2020-02-23T16:47:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC3 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ParallelTesting3.TestClass2@553f17c]" name="tearDown" is-config="true" duration-ms="1439" started-at="2020-02-23T16:47:10Z" finished-at="2020-02-23T16:47:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="TC1()[pri:0, instance:com.ParallelTesting3.TestClass2@553f17c]" name="TC1" duration-ms="17" started-at="2020-02-23T16:47:11Z" finished-at="2020-02-23T16:47:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ParallelTesting3.TestClass2@553f17c]" name="tearDown" is-config="true" duration-ms="728" started-at="2020-02-23T16:47:11Z" finished-at="2020-02-23T16:47:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.ParallelTesting3.TestClass2 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite (0) -->
-  <suite name="Run Multple xml files" duration-ms="0" started-at="2020-02-23T16:47:14Z" finished-at="2020-02-23T16:47:14Z">
-    <groups>
-    </groups>
-  </suite> <!-- Run Multple xml files -->
 </testng-results>
